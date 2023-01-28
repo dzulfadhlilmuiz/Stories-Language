@@ -1,0 +1,172 @@
+:root{
+    --primary: #b6895b;
+    --bg: #010101;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgb(1, 1, 1, 0.8);
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+}
+
+.navbar .navbar-logo span {
+    color: var(--primary);
+}
+
+.navbar .navbar-end a {
+    color: #fff;
+    margin: 0 0.4rem;
+}
+
+.navbar .navbar-end a:hover {
+    color: var(--primary);
+}
+
+.menu {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    padding: 10px;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.menu a:hover {
+    color: var(--primary);
+}
+
+.study {
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(1, 1, 1, 0.5);
+    border-radius: 15px;
+    display: block;
+    margin: 20px 650px;
+
+
+}
+
+.assigment {
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(1, 1, 1, 0.5);
+    border-radius: 15px;
+    display: block;
+    margin: 20px 650px;
+}
+
+.register {
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(1, 1, 1, 0.5);
+    border-radius: 15px;
+    display: block;
+    margin: 20px 650px;
+}
+
+.background { 
+    background-image: url("bg2.avif");
+    background-size: cover;
+    background-position: right;
+}
+
+.bg-asg {
+    background-image: url("bg-asg.avif");
+    background-size: cover;
+}
+
+.asg-id {
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.asg-1 {
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: bold;
+}
+
+.asg-1 input {
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.asg-2 {
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.asg-2 input {
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.asg-3 {
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.asg-3 input {
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.send {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(1, 1, 1, 0.5);
+    border-radius: 15px;
+    display: block;
+    margin: 5px 700px;
+}
+
+.send a:hover {
+    color: var(--primary);
+}

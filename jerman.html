@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stories Language</title>
+
+    <!-- Fonts -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body class="kelas">
+
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <a href="study.html"><i data-feather="arrow-left"></i></a>
+    </nav>
+
+
+    <div class="quest">
+        <h1>Minum</h1>
+        <h5>Pilih kata yang tepat dalam bahasa Jerman</h5>
+        
+        <div class="btn-quest">
+            <button class="btn-1" onclick="truee()">Getränk</button>
+            <button class="btn-2" onclick="falsee()">Essen</button>
+            <button class="btn-3" onclick="falsee()">Bad</button>
+            <button class="btn-4" onclick="falsee()">Wer</button>
+            <button class="btn-5" onclick="falsee()">Er</button>
+        </div>
+
+        <script>
+            function truee(){
+                document.getElementById('question').innerHTML="betul";
+                document.getElementById('question').style.color="green";
+                document.getElementById('question').style.textTransform="uppercase";
+            }
+
+            function falsee(){
+                document.getElementById('question').innerHTML="salah";
+                document.getElementById('question').style.color="red";
+                document.getElementById('question').style.textTransform="uppercase";
+            }
+        </script>
+        
+
+        <div class="nav-quest">
+            <div id="question" class="answer"></div>
+            <a href="finish.html"><i data-feather="arrow-right-circle" style="font-size:36px"></i></a>
+        </div>
+
+    
+    </div>
+
+    
+
+     <!-- Icons -->
+     <script>
+        feather.replace()
+    </script>
+</body>
+</html>
